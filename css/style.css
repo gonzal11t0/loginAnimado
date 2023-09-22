@@ -12,9 +12,9 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    width: 600px;
+    width:600px;
     height:auto;
-    margin-top:160px;
+    margin-top:300px;
     background: #c31432;
     background: -webkit-linear-gradient(to left, #240b36, #2f103b);
     background: linear-gradient(to left, #240b36, #2f103b);
@@ -35,7 +35,7 @@ body{
 }
 .tituloLogin h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size:1.5rem;
+    font-size:1.8rem;
     color:#ffff;
 }
 .containerImg{
@@ -70,6 +70,7 @@ body{
 .containerForm form input{
     margin-bottom:50px;
     text-align: center;
+    font-size:1.1rem;
 }
 .containerForm form input:focus{
     box-shadow:5px 5px 5px #ec1a1a;
@@ -82,7 +83,7 @@ body{
 }
 .mensajeError {
     color: red; /* Cambia el color del texto a rojo */
-    font-size: 14px; /* Cambia el tamaño de fuente */
+    font-size:1.1rem; /* Cambia el tamaño de fuente */
     margin-top: 5px; /* Agrega un espacio en la parte superior para separar los mensajes */
     font-weight: bold; /* Hace que el texto sea más audaz */
 }
