@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #c31432;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432);
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    height:auto;
+    margin-top:160px;
+    background: #c31432;
+    background: -webkit-linear-gradient(to left, #240b36, #2f103b);
+    background: linear-gradient(to left, #240b36, #2f103b);
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    box-shadow:  15px 15px 10px #3f0711 ;
+}
+.tituloLogin{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-top:15px;
+}
+.tituloLogin h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5rem;
+    color:#ffff;
+}
+.containerImg{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.containerImg img{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+}
+.containerForm{
+    display:grid;
+    grid-template-rows:auto auto;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.containerForm form {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    align-content: center;
+}
+.containerForm form input{
+    margin-bottom:50px;
+    text-align: center;
+}
+.containerForm form input:focus{
+    box-shadow:5px 5px 5px #ec1a1a;
+}
+.containerForm form input:hover{
+    box-shadow:5px 5px 5px #ec1a1a;
+}
+.hidden {
+    display: none;
+}
+.mensajeError {
+    color: red; /* Cambia el color del texto a rojo */
+    font-size: 14px; /* Cambia el tamaño de fuente */
+    margin-top: 5px; /* Agrega un espacio en la parte superior para separar los mensajes */
+    font-weight: bold; /* Hace que el texto sea más audaz */
+}
