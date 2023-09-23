@@ -68,9 +68,11 @@ body{
     align-content: center;
 }
 .containerForm form input{
-    margin-bottom:50px;
+    margin-bottom:30px;
     text-align: center;
     font-size:1.1rem;
+    margin-left:10px;
+    margin-right:10px;
 }
 .containerForm form input:focus{
     box-shadow:5px 5px 5px #ec1a1a;
