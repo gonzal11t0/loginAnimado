@@ -2,4 +2,35 @@
     body{
         background: #520310 !important;
     }
+    .Container{
+        width:450px;
+        margin-top:150px;
+    }
+    .containerForm form input{
+        margin-bottom:20px;
+        font-size:1rem;
+    }
+}
+@media  (max-width:444px) {
+    .Container{
+        width:360px;
+        margin-top:50px;
+    }
+    .containerForm form input{
+        margin-bottom:10px;
+        font-size:0.8rem;
+    }
+}
+@media  (max-width:360px) {
+    .Container{
+        width:290px;
+        margin-top:20px;
+    }
+    .containerForm form input{
+        margin-bottom:7px;
+        font-size:0.7rem;
+    }
+    .btn{
+        font-size: 0.8rem !important;
+    }
 }

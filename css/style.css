@@ -12,9 +12,9 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    width:600px;
+    width:580px;
     height:auto;
-    margin-top:300px;
+    margin-top:280px;
     background: #c31432;
     background: -webkit-linear-gradient(to left, #240b36, #2f103b);
     background: linear-gradient(to left, #240b36, #2f103b);
